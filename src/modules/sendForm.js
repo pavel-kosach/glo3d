@@ -81,6 +81,7 @@ const sendForm = ({ formId, someElem = [] }) => {
 
     statusBlock.textContent = loadText;
     form.append(statusBlock);
+    statusBlock.style.color = "white";
 
     formData.forEach((val, key) => {
       formBody[key] = val;
